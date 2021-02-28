@@ -84,7 +84,7 @@ class NewStudentForm extends React.Component {
             value={this.defaultIfEmpty(this.state.phone)}
           />
         </FormGroup>
-        <Button>Send</Button>
+        <Button>Submit</Button>
       </Form>
     );
   }
